@@ -7,8 +7,9 @@ h2
     text-align: center;
 } 
 .rainbow-text {
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet,indigo, blue, green, yellow, orange, red);
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
   background-size: 400%;
+  background-position: 0%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 3s linear infinite;
@@ -17,3 +18,13 @@ h2
   0% { background-position: 0%; }
   100% { background-position: 100%; }
 }
+button
+{
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
